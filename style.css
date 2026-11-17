@@ -1,0 +1,590 @@
+
+/* GENERAL STYLING */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E8DCC8;
+    color: #1F2A44;
+    font-family: Georgia, "Times New Roman", serif;
+    line-height: 1.7;
+}
+
+html {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+section {
+    padding: 90px 10%;
+}
+
+.eyebrow {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #C6A75E;
+}
+
+
+/* HEADER */
+
+.site-header {
+    background-color: #E8DCC8;
+    padding: 22px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.site-name {
+    font-size: 19px;
+    font-weight: bold;
+    color: #1F2A44;
+}
+
+.site-header nav {
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.site-header nav a {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #1F2A44;
+}
+
+.site-header nav a:hover {
+    color: #A88743;
+}
+
+
+/* HERO SECTION */
+
+.hero {
+    min-height: 520px;
+    padding: 80px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hello {
+    margin-top: 35px;
+    font-size: 17px;
+    letter-spacing: 4px;
+}
+
+.hero h1 {
+    font-size: 100px;
+    line-height: 1.1;
+    color: #1F2A44;
+}
+
+.hero h1 span {
+    color: #C6A75E;
+}
+
+.hero h2 {
+    font-size: 23px;
+    font-weight: normal;
+    margin-top: 15px;
+}
+
+.hero-description {
+    max-width: 480px;
+    margin-top: 18px;
+    font-size: 16px;
+}
+
+.hero-link {
+    display: inline-block;
+    margin-top: 30px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #C6A75E;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero-link:hover {
+    color: #A88743;
+}
+
+.hero-photo {
+    width: 300px;
+    height: 300px;
+    border: 7px solid #C6A75E;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* SECTION HEADINGS */
+
+.section-heading {
+    margin-bottom: 45px;
+}
+
+.section-heading h2 {
+    font-size: 48px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+
+/* ABOUT SECTION */
+
+.about-section {
+    background-color: #172239;
+    color: #F7F2E9;
+}
+
+.about-section .section-heading h2 {
+    color: #F7F2E9;
+}
+
+.about-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 55px;
+}
+
+.about-content h3 {
+    color: #C6A75E;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #E8DCC8;
+}
+
+.objective {
+    border-left: 2px solid #C6A75E;
+    padding-left: 25px;
+}
+
+
+/* EDUCATION SECTION */
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-item {
+    display: flex;
+    gap: 30px;
+    padding: 25px 0;
+    border-bottom: 1px solid #C6A75E;
+}
+
+.education-number {
+    font-size: 20px;
+    color: #A88743;
+}
+
+.education-item h3 {
+    font-size: 21px;
+}
+
+.course {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.year {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #806B4C;
+    margin-top: 5px;
+}
+
+.academic-scores {
+    display: flex;
+    gap: 80px;
+    margin-top: 45px;
+}
+
+.academic-scores p {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.academic-scores h3 {
+    font-size: 38px;
+    color: #A88743;
+}
+
+
+/* EXPERIENCE SECTION */
+
+.experience-section {
+    background-color: #F7F2E9;
+}
+
+.experience-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45px;
+}
+
+.experience-item {
+    padding: 20px 0;
+    border-top: 2px solid #C6A75E;
+}
+
+.role-label {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #A88743;
+}
+
+.experience-item h3 {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+.experience-item p:last-child {
+    font-size: 15px;
+}
+
+
+/* COLLEGE INVOLVEMENT */
+
+.involvement-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.involvement-list p {
+    font-size: 19px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #C6A75E;
+}
+
+.involvement-list span {
+    color: #A88743;
+    margin-right: 20px;
+    font-size: 15px;
+}
+
+
+/* SKILLS */
+
+.skills-section {
+    background-color: #F7F2E9;
+}
+
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #1F2A44;
+    color: #F7F2E9;
+    padding: 15px;
+    font-size: 15px;
+}
+
+.skills-table td {
+    padding: 17px 15px;
+    border-bottom: 1px solid #D4C4A9;
+    font-size: 15px;
+}
+
+.skills-table td:first-child {
+    font-weight: bold;
+    width: 25%;
+}
+
+
+/* ACHIEVEMENTS */
+
+.achievement-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.achievement-content article {
+    border-top: 2px solid #C6A75E;
+    padding-top: 20px;
+}
+
+.achievement-year {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #A88743;
+}
+
+.achievement-content h3 {
+    font-size: 24px;
+    margin: 12px 0;
+}
+
+
+/* LANGUAGES */
+
+.languages-section {
+    background-color: #1F2A44;
+    color: #F7F2E9;
+    text-align: center;
+}
+
+.languages-section h2 {
+    font-size: 45px;
+    font-weight: normal;
+    margin: 10px 0 30px;
+}
+
+.language-list {
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+}
+
+.language-list span {
+    border-bottom: 1px solid #C6A75E;
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+
+/* FOOTER */
+
+.site-footer {
+    background-color: #172239;
+    color: #F7F2E9;
+    padding: 45px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.footer-name {
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.site-footer a {
+    color: #C6A75E;
+}
+
+.copyright {
+    width: 100%;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #C8C0B3;
+    margin-top: 15px;
+}
+
+
+/* CONTACT PAGE */
+
+.contact-page {
+    min-height: 100vh;
+}
+
+.contact-container {
+    max-width: 850px;
+    margin: 60px auto;
+    padding: 30px;
+}
+
+.contact-container h1 {
+    font-size: 52px;
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+.contact-intro {
+    max-width: 600px;
+    margin-bottom: 35px;
+}
+
+.contact-details {
+    margin: 30px 0;
+}
+
+.contact-details p {
+    margin: 12px 0;
+}
+
+.contact-details a {
+    color: #A88743;
+}
+
+.contact-form {
+    margin-top: 35px;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 95%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid #C6A75E;
+    background-color: #F7F2E9;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form button {
+    margin-top: 20px;
+    padding: 13px 30px;
+    background-color: #1F2A44;
+    color: #F7F2E9;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #A88743;
+}
+
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (max-width: 900px) {
+
+    .hero {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .hero-text {
+        width: 100%;
+    }
+
+    .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .experience-list {
+        grid-template-columns: 1fr;
+    }
+
+    .achievement-content {
+        grid-template-columns: 1fr;
+    }
+
+    .site-header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    section {
+        padding: 60px 7%;
+    }
+
+    .hero h1 {
+        font-size: 65px;
+    }
+
+    .hero h2 {
+        font-size: 19px;
+    }
+
+    .hero-photo {
+        width: 230px;
+        height: 230px;
+    }
+
+    .section-heading h2 {
+        font-size: 36px;
+    }
+
+    .academic-scores {
+        gap: 35px;
+    }
+
+    .academic-scores h3 {
+        font-size: 30px;
+    }
+
+    .education-item {
+        gap: 15px;
+    }
+
+    .education-item h3 {
+        font-size: 18px;
+    }
+
+    .site-header nav {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .site-footer {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .contact-container {
+        margin: 30px auto;
+        padding: 20px;
+    }
+
+    .contact-container h1 {
+        font-size: 38px;
+    }
+
+}
+
+
+
+
+
